@@ -1,3 +1,31 @@
-.hidden {
-  display:
+body {
+  font-family: sans-serif;
 }
+
+.container{
+  padding-top:
+  width: 88%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  text-align: center;
+  text-decoration:  underline;
+}
+
+@keyframes pageSlide {
+  from {
+    position: relative;
+    right: 70%;
+
+      }
+      to {
+        position: relative;
+        left: 70%;
+
+      }
+    }
+
+    .page {
+      animation: pageSlide: 1.5%;
+    }
